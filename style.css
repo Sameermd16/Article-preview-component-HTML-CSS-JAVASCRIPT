@@ -34,10 +34,10 @@ body{
     max-width: 750px;
     box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
-    overflow: hidden;
 }
+
 .bottom_flex .pic_div img{
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
 }
 .bottom_flex{
@@ -55,12 +55,40 @@ body{
     flex-direction: column;
     justify-content: space-around;
     padding: 30px;
+    position: relative;
+    z-index: 1;
 }
 .arrow img{
     padding: 7px;
     border-radius: 50%;
     background-color: var(--Light-Grayish-Blue);
     cursor: pointer;
+}
+.socials_share{
+    width: 200px;
+    height: 40px;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    border-radius: 10px;
+    position: absolute;
+    left: 320px;
+    top: 110px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socials_share span{
+    color: var(--Grayish-Blue);
+}
+.social_icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border: 3px solid black;
 }
 @media only screen and (max-width: 768px){
     .grid-container{
