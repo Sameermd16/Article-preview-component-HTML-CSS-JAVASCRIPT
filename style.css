@@ -27,6 +27,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     gap: 50px;
+    background: var(--Light-Grayish-Blue);
 }
 .grid-container{
     display: grid;
@@ -45,7 +46,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    /* border: 1px solid black; */
 }
 .bottom_flex .pic_div{
     display: flex;
@@ -58,7 +58,7 @@ body{
     padding: 30px;
     position: relative;
     z-index: 1;
-    /* border: 1px solid black; */
+    background: white;
 }
 .arrow img{
     padding: 10px;
@@ -133,9 +133,7 @@ ion-icon:hover{
         overflow: hidden;
     }
     .socials_share{
-        /* position: relative; */
         width: 300px;
-        /* border: 2px solid blue; */
         justify-content: flex-start;
         height: 60px;
         left: 0px;
